@@ -1,23 +1,23 @@
 # 🏡 Landing Page – Complejo de Cabañas
 
-Landing Page desarrollada para un complejo de cabañas turísticas, diseñada para brindar información clara sobre el establecimiento, sus servicios y medios de contacto mediante una interfaz moderna, responsive y de fácil navegación.
+Landing Page desarrollada para un complejo de cabañas turísticas, diseñada para presentar el establecimiento, sus servicios, el catálogo de cabañas y los medios de contacto mediante una experiencia moderna, intuitiva y totalmente responsive.
 
-El proyecto fue desarrollado siguiendo principios de Ingeniería de Software, priorizando una arquitectura escalable, componentes reutilizables y código mantenible.
+El proyecto fue construido con React, TypeScript y Tailwind CSS, aplicando principios de Ingeniería de Software, arquitectura modular y buenas prácticas de desarrollo para facilitar su mantenimiento y evolución.
 
 ---
 
 # Características
 
 * Landing Page moderna y responsive.
-* Catálogo de cabañas con renderizado dinámico.
+* Catálogo dinámico de cabañas.
 * Galería de imágenes.
 * Sección de servicios.
-* Mapa de ubicación integrado.
+* Mapa con la ubicación del complejo.
 * Información de contacto.
 * Preguntas frecuentes (FAQ).
 * Diseño Mobile First.
 * Componentes reutilizables.
-* Preparado para futuras integraciones con Backend.
+* Arquitectura preparada para futuras integraciones con servicios externos.
 
 ---
 
@@ -32,20 +32,18 @@ El proyecto fue desarrollado siguiendo principios de Ingeniería de Software, pr
 
 # Arquitectura
 
-El proyecto se organiza mediante una arquitectura modular basada en componentes, favoreciendo:
+El proyecto adopta una arquitectura modular basada en componentes, priorizando:
 
 * Separación de responsabilidades.
 * Bajo acoplamiento.
 * Alta cohesión.
 * Escalabilidad.
-* Reutilización de componentes.
-* Facilidad de mantenimiento.
+* Reutilización.
+* Mantenibilidad.
 
 ---
 
 # Principios aplicados
-
-## Ingeniería de Software
 
 * SOLID
 * Clean Code
@@ -53,7 +51,7 @@ El proyecto se organiza mediante una arquitectura modular basada en componentes,
 * KISS
 * YAGNI
 * Separation of Concerns
-* Component Driven Development
+* Component-Driven Development
 * Mobile First
 
 ---
@@ -74,8 +72,6 @@ src/
 ├── styles/
 └── App.tsx
 ```
-
-La estructura puede evolucionar conforme crezcan los requerimientos del proyecto.
 
 ---
 
@@ -99,13 +95,13 @@ Instalar dependencias:
 npm install
 ```
 
-Ejecutar el proyecto:
+Ejecutar en desarrollo:
 
 ```bash
 npm run dev
 ```
 
-Compilar para producción:
+Generar la versión de producción:
 
 ```bash
 npm run build
@@ -119,37 +115,23 @@ npm run preview
 
 ---
 
-# Objetivos del proyecto
+# Objetivo
 
-* Brindar información del complejo.
-* Mostrar las cabañas disponibles.
-* Facilitar el contacto con los propietarios.
-* Mejorar la presencia digital del establecimiento.
-* Ofrecer una experiencia de navegación intuitiva en cualquier dispositivo.
+Proporcionar una plataforma web moderna que permita presentar el complejo de cabañas, exhibir sus unidades, destacar los servicios disponibles y ofrecer canales de contacto claros para potenciales huéspedes, garantizando una experiencia de navegación rápida, accesible y adaptable a cualquier dispositivo.
 
 ---
 
-# Futuras mejoras
+# Próximas mejoras
 
-* Integración con Backend.
-* Panel de administración.
 * Sistema de reservas.
-* Disponibilidad en tiempo real.
-* Integración con Google Calendar.
-* Formulario de contacto funcional.
+* Integración con servicios de disponibilidad.
+* Optimización SEO avanzada.
 * Internacionalización (i18n).
-* Optimización SEO.
-* PWA.
-
----
-
-# Estado del proyecto
-
-En desarrollo.
+* Panel de administración.
+* Integración con analíticas web.
 
 ---
 
 # Licencia
 
-Este proyecto fue desarrollado con fines educativos y demostrativos. Su reutilización queda sujeta a la licencia que el propietario del repositorio decida adoptar.
-
+Todos los derechos sobre este proyecto y su contenido pertenecen a su propietario. Queda prohibida su reproducción, distribución o modificación sin autorización expresa.
