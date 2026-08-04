@@ -7,9 +7,9 @@
   
   --color-primary: #1B3B2B;       /* Deep Pine Slate (Elegancia y confianza natural) */
   --color-secondary: #4A5D4E;     /* Muted Sage (Equilibrio orgánico) */
-  --color-accent: #B85D34;        /* Warm Copper (Calidez de hogar y CTAs) */
   --color-rustic: #3D2C22;        /* Marrón Espresso sutil */
   --color-burgundy: #7C2D12;      /* Rust / Alerta sofisticada */
+  --color-copper: #B85D34;        /* Cobre cálido para acentos y botones */
 
   /* Neutros refinados para máxima legibilidad y confort visual */
   --color-background: #F4F3F0;    /* Warm Stone (Piedra cálida que reduce fatiga visual) */
