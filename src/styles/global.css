@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+@theme {
+  /* ==========================================
+     PALETA DE COLORES PERSONALIZADA PARA EL SITIO WEB
+     ========================================== */
+  
+  --color-primary: #1B3B2B;       /* Deep Pine Slate (Elegancia y confianza natural) */
+  --color-secondary: #4A5D4E;     /* Muted Sage (Equilibrio orgánico) */
+  --color-accent: #B85D34;        /* Warm Copper (Calidez de hogar y CTAs) */
+  --color-rustic: #3D2C22;        /* Marrón Espresso sutil */
+  --color-burgundy: #7C2D12;      /* Rust / Alerta sofisticada */
+
+  /* Neutros refinados para máxima legibilidad y confort visual */
+  --color-background: #F4F3F0;    /* Warm Stone (Piedra cálida que reduce fatiga visual) */
+  --color-surface: #FFFFFF;       /* Superficies limpias (Tarjetas y modales) */
+  --color-surface-muted: #EBEAE6; /* Contenedores secundarios y estados hover */
+  --color-foreground: #1C1917;    /* Stone Charcoal (Texto nítido, WCAG AA contrast) */
+  --color-muted: #78716C;         /* Texto secundario y metadatos */
+  --color-border: #D7D3CD;        /* Bordes minimalistas y orgánicos */
+}
+
+/* Ajustes globales de experiencia de usuario y tipografía */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Selección de texto personalizada acorde al branding */
+::selection {
+  background-color: var(--color-accent);
+  color: #FFFFFF;
+}
