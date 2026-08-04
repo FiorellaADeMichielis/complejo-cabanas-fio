@@ -2,6 +2,8 @@ import { type JSX } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/Button';
 import { Reviews } from '@/components/ui/Reviews';
+import { ImageCarousel } from '@/components/ui/Carousel';
+import { COMPLEX_GALLERY } from '@/data/ComplexGalleryData';
 
 export function HomePage(): JSX.Element {
   return (
@@ -88,6 +90,19 @@ export function HomePage(): JSX.Element {
         </div>
       </section>
 
+      {/* Gallery Carousel Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
+          <h2 className="text-3xl sm:text-4xl font-bold text-primary tracking-tight">
+            Conocé el Complejo
+          </h2>
+          <p className="text-muted text-base">
+            Un recorrido visual por nuestros espacios diseñados para tu comodidad y descanso.
+          </p>
+        </div>
+        <ImageCarousel images={COMPLEX_GALLERY} />
+      </section>
+
       {/* Google Maps Reviews Section */}
       <Reviews />
 
@@ -99,7 +114,7 @@ export function HomePage(): JSX.Element {
               ¿Dónde Encontrarnos?
             </h2>
             <p className="text-muted text-base">
-              Te esperamos en Paso de la Patria, Corrientes, cerca de la costa y rodeados de naturaleza.
+              Te esperamos en Paso de la Patria, Corrientes, cerca de la costa y con fácil acceso a los principales atractivos de la zona.
             </p>
           </div>
 
