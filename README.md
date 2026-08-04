@@ -1,6 +1,6 @@
-# 🏡 Landing Page – Complejo de Cabañas
+# Landing Page – Apartotel y Complejo Turístico
 
-Landing Page desarrollada para un complejo de cabañas turísticas, diseñada para presentar el establecimiento, sus servicios, el catálogo de cabañas y los medios de contacto mediante una experiencia moderna, intuitiva y totalmente responsive.
+Landing Page desarrollada para un complejo turístico, diseñada para presentar el establecimiento, sus servicios, el catálogo de apartamentos y unidades con balcón, y los medios de contacto mediante una experiencia moderna, intuitiva y totalmente responsive.
 
 El proyecto fue construido con React, TypeScript y Tailwind CSS, aplicando principios de Ingeniería de Software, arquitectura modular y buenas prácticas de desarrollo para facilitar su mantenimiento y evolución.
 
@@ -9,9 +9,9 @@ El proyecto fue construido con React, TypeScript y Tailwind CSS, aplicando princ
 # Características
 
 * Landing Page moderna y responsive.
-* Catálogo dinámico de cabañas.
+* Catálogo de apartamentos y unidades con balcón.
 * Galería de imágenes.
-* Sección de servicios.
+* Sección de servicios, piscina y bar.
 * Mapa con la ubicación del complejo.
 * Información de contacto.
 * Preguntas frecuentes (FAQ).
@@ -117,7 +117,7 @@ npm run preview
 
 # Objetivo
 
-Proporcionar una plataforma web moderna que permita presentar el complejo de cabañas, exhibir sus unidades, destacar los servicios disponibles y ofrecer canales de contacto claros para potenciales huéspedes, garantizando una experiencia de navegación rápida, accesible y adaptable a cualquier dispositivo.
+Proporcionar una plataforma web moderna que permita presentar el apartotel, exhibir sus apartamentos y unidades con balcón, destacar los servicios disponibles (como la piscina al aire libre y el bar) y ofrecer canales de contacto claros para potenciales huéspedes, garantizando una experiencia de navegación rápida, accesible y adaptable a cualquier dispositivo.
 
 ---
 
