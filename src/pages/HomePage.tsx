@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button';
 import { Reviews } from '@/components/ui/Reviews';
 import { ImageCarousel } from '@/components/ui/Carousel';
 import { COMPLEX_GALLERY } from '@/data/ComplexGalleryData';
+import { FaqSection } from '@/components/ui/FaqSection';
 
 export function HomePage(): JSX.Element {
   return (
@@ -37,7 +38,7 @@ export function HomePage(): JSX.Element {
         </div>
       </section>
 
-      {/* Features Section (Por qué elegirnos) */}
+      {/* Features Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
           <h2 className="text-3xl sm:text-4xl font-bold text-primary tracking-tight">
@@ -49,7 +50,6 @@ export function HomePage(): JSX.Element {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1: Unidades con Balcón */}
           <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-border flex flex-col items-center text-center space-y-4 group">
             <div className="p-4 bg-copper/10 rounded-2xl text-copper group-hover:scale-110 transition-transform duration-300">
               <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -62,7 +62,6 @@ export function HomePage(): JSX.Element {
             </p>
           </div>
 
-          {/* Card 2: Piscina al Aire Libre */}
           <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-border flex flex-col items-center text-center space-y-4 group">
             <div className="p-4 bg-copper/10 rounded-2xl text-copper group-hover:scale-110 transition-transform duration-300">
               <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -75,7 +74,6 @@ export function HomePage(): JSX.Element {
             </p>
           </div>
 
-          {/* Card 3: Bar y Relax */}
           <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-border flex flex-col items-center text-center space-y-4 group">
             <div className="p-4 bg-copper/10 rounded-2xl text-copper group-hover:scale-110 transition-transform duration-300">
               <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -103,8 +101,16 @@ export function HomePage(): JSX.Element {
         <ImageCarousel images={COMPLEX_GALLERY} />
       </section>
 
-      {/* Google Maps Reviews Section */}
-      <Reviews />
+      {/* Google Maps Reviews */}
+      <div className="py-5 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <hr className="border-border/60"></hr>
+        <Reviews />
+      </div>
+
+      <section id="faq" className="py-5 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full scroll-mt-20">
+        <hr className="border-border/60"></hr>
+        <FaqSection />
+      </section>
 
       {/* Location Section (Mapa) */}
       <section className="py-20 bg-surface-muted border-t border-border px-4 sm:px-6 lg:px-8">
