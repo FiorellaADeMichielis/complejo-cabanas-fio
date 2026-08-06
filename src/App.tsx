@@ -5,12 +5,14 @@ import { Footer } from '@/components/layout/Footer';
 import { HomePage } from '@/pages/HomePage';
 import { UnitsPage } from '@/pages/UnitsPage';
 import { AboutPage } from '@/pages/AboutPage';
+import { NotFoundPage } from './pages/NotFoundPage';
+import { WhatsAppButton } from './components/ui/WhatsappButton';
 
 export function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      {/* Usamos un div flex-col con min-h-screen para garantizar que el footer baje */}
+      {/* Uun div flex-col con min-h-screen garantiza que el footer baje */}
       <div className="flex flex-col min-h-screen">
         <Header />
         
@@ -20,10 +22,12 @@ export function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/unidades" element={<UnitsPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
+          
         </main>
-        
         <Footer />
+        <WhatsAppButton />
       </div>
 
     </BrowserRouter>

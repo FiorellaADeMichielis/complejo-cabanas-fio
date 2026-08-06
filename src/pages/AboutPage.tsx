@@ -26,7 +26,7 @@ export function AboutPage(): JSX.Element {
               Descanso y comodidad a pocos pasos del río
             </h2>
             <p className="text-muted text-base leading-relaxed">
-              Complejo Cabañas Fio funciona como un apartotel tranquilo diseñado para quienes buscan una estadía independiente pero con todas las comodidades. Ofrecemos unidades sencillas equipadas con balcón para disfrutar de las tardes al aire libre.
+              Complejo Paso del Rey funciona como un complejo de apartamentos tranquilos diseñados para quienes buscan una estadía independiente pero con todas las comodidades. Ofrecemos unidades sencillas equipadas con balcón para disfrutar de las tardes al aire libre.
             </p>
             <p className="text-muted text-base leading-relaxed">
               Nuestras instalaciones cuentan con una agradable piscina al aire libre y un bar exclusivo para nuestros huéspedes, creando el clima perfecto para relajarse y desconectar de la rutina diaria.
